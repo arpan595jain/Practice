@@ -8,8 +8,8 @@ public:
          int n=nums.size();
          for(int i=0;i<n;i++)
          {
-             st.insert(nums[i][2]);
-             mp[stoi(nums[i][1])][nums[i][2]]++;
+        st.insert(nums[i][2]);
+        mp[stoi(nums[i][1])][nums[i][2]]++;
          }
          vector<string>v(st.begin(),st.end());
          vector<vector<string>>ans;
